@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+.cabecario{
+    width: 100%;
+    height:50px;  
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.corpo{
+    display:flex;
+}
+
+#box1{
+    width:250px;
+    background: url(logo_youtube.png);
+    background-size: cover;
+   
+    overflow: auto;
+}
+
+#box2{
+    width:450px;
+    
+    background: url(menu_centro.png);
+    background-size: cover;
+}
+
+
+#box3{
+    width:150px;
+    background: url(menu_direito.png);
+    background-size: cover;
+}
+
+.conteudo{
+    margin-left: 5%;
+    width: 65%;
+    height:600px;  
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 auto;
+
+}
+iframe{
+    width: 800px;
+    height: 500px;
+}
+
+.conteudo{
+    display:flex;
+    flex-flow: column;
+    font-family: 'roboto';
+}
+
+.botao{
+    background-color: red;
+    font-family:'roboto';
+    font-style: normal;
+    border: none;
+    text-align: center;
+    color: white;
+    height: 35px;
+    width: 150px;
+    margin-left: 5%;
+    margin-top: 1%;
+    
+}
+.icone img{
+    background-color: blue;
+    border: 1px;
+    border-style: groove;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.num{
+    font-size: 12px;
+    margin-left: 1%;
+}
+
+.nome{ 
+    font-family: 'roboto';
+    font-weight: bold;
+}
+
+.inscritos{
+    color: gray;
+
+}
+
+.texto_descritivo{
+    color:gray;
+}
+
+
+.barra_Inscrito{
+    display: flex;
+
+}
+
+.lista{
+    border: 1px;
+    border-style: groove;
+    width:25%;
+    height:600px;  
+    background-size: cover;
+    overflow: auto;
+    background-attachment:scroll;
+}
+
+.figuras{
+    display: flex;
+    margin: 1%;
+  
+   
+}
+
+.figuras img{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.escritos_video{
+    border: 1px;
+    border-style: groove;
+    border-color: black;
+    font-family: 'roboto';
+    font-weight: bold;
+    margin-top: -1px;
+}
+
